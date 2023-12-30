@@ -1,0 +1,117 @@
+.post {
+    width: 90%;
+    height: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.16);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.postWrapper {
+    padding: 0px;
+}
+
+.postTopImg {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.postTopLeft {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.postUserName {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.postDate {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.postTopRight {
+    height: 40px;
+    width: 30%;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+}
+
+.postTopIcon {
+    font-size: 35px !important;
+    margin: 0 10px;
+}
+
+:hover.postTopIcon {
+    height: 35px;
+    background-color: rgb(214, 208, 208);
+    border-radius: 50%;
+}
+
+.postCenter {
+    flex: 0.7;
+    /* Chiếm 70% chiều cao của post */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.postText {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.postImg {
+    height: 100%;
+    margin-top: 10px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.emojiIcon {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.postBottomCounter {
+    font-size: 16px;
+}
+
+.postBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postCommentText {
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom: 1px dashed black;
+}

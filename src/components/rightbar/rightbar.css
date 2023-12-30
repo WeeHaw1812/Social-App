@@ -1,0 +1,103 @@
+.rightbar {
+    flex: 3.5;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+:hover::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+
+    background-color: #e0dede;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(166, 162, 162);
+}
+
+
+.rightbarWrapper {
+    padding: 20px;
+}
+
+.birthdayContainer {
+    display: flex;
+    align-items: center;
+}
+
+.rightbarTitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rightbarHr {
+    margin: 10px 0;
+}
+
+.birthdayImg {
+    width: 50px;
+    height: 50px;
+}
+
+.birthdayText {
+    width: 350px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/*====ADS======*/
+.rightbarAds {
+    width: 100%;
+}
+
+.AdsImg {
+    width: 90%;
+    height: 300px;
+    margin: 10px 0;
+    object-fit: contain;
+
+}
+
+/*====ADS======*/
+.rightBarQuickLinks {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+}
+
+:hover.QuickLink {
+    background-color: gainsboro;
+}
+
+.QuickLink {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.quickLinkImg {
+    border: solid 0.1px rgb(217, 214, 214);
+    height: 36px;
+    width: 36px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+
+.quickLinkText {
+    font-weight: 400;
+    font-size: 18px;
+}

@@ -1,0 +1,107 @@
+.sidebar {
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+:hover::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+
+    background-color: #e0dede;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(166, 162, 162);
+}
+
+
+.sidebarWrapper {
+    padding: 20px;
+}
+
+.sidebarList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.sidebarListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebarIcon {
+    margin-right: 20px;
+}
+
+.sidebarButton {
+    width: 150px;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebarHr {
+    margin: 20px 0;
+}
+
+.sidebarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarFriend {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sidebarFriendImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+
+.sidebarIconBadge {
+    position: absolute;
+    background: #31a24c;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    left: 22px;
+    bottom: 1px;
+}
+
+.sidebarIconOffline {
+    position: absolute;
+    background-color: rgb(191, 243, 191);
+    border-radius: 5px;
+    width: 33px;
+    height: 10px;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6px;
+    color: #31a24c;
+}
